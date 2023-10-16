@@ -1,8 +1,10 @@
-﻿using System.DirectoryServices;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.DirectoryServices;
 using static ADChecker.AppSettingsUtils;
 
 namespace ADChecker;
 
+[SuppressMessage("Interoperability", "CA1416:Validate platform compatibility")]
 internal class EntraIDClient
 {
     internal static List<EntraID> GetByUpn(string[] upns)
