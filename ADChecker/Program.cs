@@ -11,6 +11,8 @@ class Program
         {
             Console.WriteLine($"{id.Upn} - {id.Status}");
         }
+
+        Console.ReadKey();
     }
 }
 
