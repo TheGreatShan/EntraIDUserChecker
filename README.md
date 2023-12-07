@@ -1,8 +1,8 @@
 # EntraID User Checker
 ## What's this tool
 With this tool, you can check, if a or multiple users are active or disabled in your organization's EntraID(formerly known as Azure AD) tenant.
-Please note, that this project is just a small side project, which can still have some warnings and errors.
-## How to use
+Please note, that this project was a solution a problem I faced and needed to fix quickly. This solution might have some warnings, errors and room for improvement.
+
 ### By cloning the git reposiotry
 1. Clone the git repository: ```git clone https://github.com/TheGreatShan/EntraIDUserChecker.git```
 2. Build the solution: ```dotnet build --configuration Release```
